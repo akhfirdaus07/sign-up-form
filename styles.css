@@ -43,6 +43,7 @@ body{
 .icon{
     height: 5rem;
     width: auto;
+    margin-right: 0.5rem;
 }
 
 .left>p{
@@ -57,21 +58,27 @@ h1{
 
 
 .right{
-    flex:3;
-    padding: 8em 10em 8em 3em;
+    flex:4;
+    margin:0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap:2rem;
     background-color: rgb(237, 240, 244);
+    
 }
 
-.right>p{
+.right-top>p{
     font-weight: 700;
     font-size: 1.2rem;
+    margin:0;
 }
 
-.form{
+form>.form{
     display:flex;
     flex-direction: column;
     background-color: white;
-    padding:0;
+
 }
 
 .form-row{
@@ -84,4 +91,8 @@ h1{
 .form-row div{
     display: flex;
     flex-direction: column;
+}
+
+.right-top>p, form>.form, .button, .right-bottom{
+    padding: 0 8rem 0 3rem;
 }
