@@ -86,6 +86,7 @@ form>.form{
 
     background-color: white;
     padding: 2rem 8rem 2rem 3rem;
+    box-shadow: 1px 8px 5px rgb(193, 193, 193);
 }
 
 .form-row{
@@ -123,13 +124,20 @@ button{
     width: 10rem;
     height: 3rem;
     border-radius: 10px;
+    box-shadow: 1px 8px 5px rgb(193, 193, 193);
 }
 
 input{
     width:18rem;
     height: 1.5rem;
-    border:1px solid rgb(224, 224, 224);
+    border:1px solid #E5E7EB;
     border-radius: 5px;
+}
+
+input:focus{
+    outline: none;
+    border: 2px solid rgb(29, 165, 255);
+    box-shadow: 0 0 10px #719ECE;
 }
 
 a{
