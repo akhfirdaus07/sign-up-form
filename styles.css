@@ -128,4 +128,19 @@ button{
 input{
     width:18rem;
     height: 1.5rem;
+    border:1px solid rgb(224, 224, 224);
+    border-radius: 5px;
+}
+
+a{
+    text-decoration: none;
+}
+
+.halie,.unsplash{
+    color: white;
+}
+
+.login{
+    color: #596D48;
+    font-weight: 900;
 }
