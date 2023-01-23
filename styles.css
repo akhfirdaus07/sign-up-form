@@ -42,7 +42,7 @@ body{
 
 .icon{
     height: 5rem;
-    width: auto;
+
     margin-right: 0.5rem;
 }
 
@@ -151,4 +151,14 @@ a{
 .login{
     color: #596D48;
     font-weight: 900;
+}
+
+.error::after{
+    color : red;
+    content : "Password not matched";
+}
+
+.clear::after{
+    color: green;
+    content: "Password matched";
 }
